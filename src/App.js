@@ -7,11 +7,11 @@ function App() {
 
   return (
     <RepositoriesProvider>
-      <RepositoriesList />
+      <RepositoriesButtons />
       <br/>
       <hr/>
       <br/>
-      <RepositoriesButtons />
+      <RepositoriesList />
     </RepositoriesProvider>
   );
 }
