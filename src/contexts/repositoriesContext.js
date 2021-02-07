@@ -2,7 +2,7 @@ import React, { useState, useEffect, createContext } from 'react';
 
 export const RepositoriesContext = createContext();
 
-const NAME_USER_GITHUB = "miltoncarlosab"
+const NAME_USER_GITHUB = "miltoncabastos"
 
 const RepositoriesProvider = ({ children }) => {
     const [repositories, setRepositories] = useState([]);

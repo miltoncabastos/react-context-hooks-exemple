@@ -6,7 +6,7 @@ const RepositoriesList = () => {
     const { repositories } = useContext(RepositoriesContext);
     return (
         <ul>
-            {repositories.map(repo => (
+            {repositories && repositories.map(repo => (
                 <RepositoriesListItem key={repo.id} repository={repo} />
             ))}
         </ul>
